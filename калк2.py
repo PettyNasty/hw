@@ -1,0 +1,15 @@
+num = input("корень из...? ")
+sqrt = float(num) ** 0.5
+print(sqrt)
+print("Вторая часть.")
+x1 = int(input("x1"))
+y1 = int(input("y1"))
+z1 = int(input("z1"))
+x2 = int(input("x2"))
+y2 = int(input("y2"))
+z2 = int(input("z2"))
+vec1 = max(x1,x2) - min(x1,x2)
+vec2 = max(y1,y2) - min(y1,y2)
+vec3 = max(z1,z2) - min(z1,z2)
+vec4 = (vec1**2+vec2**2)**0.5
+print((vec1**2+vec2**2)**0.5)
