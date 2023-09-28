@@ -11,5 +11,5 @@ z2 = int(input("z2"))
 vec1 = max(x1,x2) - min(x1,x2)
 vec2 = max(y1,y2) - min(y1,y2)
 vec3 = max(z1,z2) - min(z1,z2)
-vec4 = (vec1**2+vec2**2)**0.5
-print((vec1**2+vec2**2)**0.5)
+vec4 = (vec1**2+vec2**2+vec3**2)**0.5
+print(vec4)
