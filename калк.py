@@ -3,9 +3,5 @@ b = int(input("Число 2"))
 c = int(input("Число 3"))
 d = int(input("Число 4"))
 e = int(input("Число 5"))
-f = a * b * c
-g = d/e
-h = f * g
-i = f/g
-j = h+i
-print(j)
+f = ((a+b+c)*(d/e))+((a+b+c)/(d/e))
+print(f)
